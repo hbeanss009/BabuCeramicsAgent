@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Pasta Bowl",
+      "description": "A ceramic bowl made of high quality clay",
+      "price": 100,
+      "dimensions": "3.75 x 8.75 x 3.25",
+      "weight":1.5, 
+      "category": "Bowls",
+      "collection": "Dot",
+      "collection_description": ". This collection is defined by a sophisticated 'marriage of form and decoration,' resulting in stoneware that feels both ancient and contemporary."
+    },
+    {
+      "id": 2,
+      "name": "Tower Vase",
+      "description": "A vase made of high quality clay",
+      "price": 200,
+      "dimensions": "10.5 x 5.75 x 2.25",
+      "weight":2.5, 
+      "category": "Vases",
+      "collection": "Dot",
+      "collection_description": "This collection is defined by a sophisticated 'marriage of form and decoration,' resulting in stoneware that feels both ancient and contemporary."
+    },
+    {
+        "id": 3,
+        "name": "Mug",
+        "description": "A mug made of high quality clay",
+        "price": 300,
+        "dimensions": "5.5 x 3.25 x 5.75",
+        "weight":1.0, 
+        "category": "Mugs",
+        "collection": "Dot",
+        "collection_description": "This collection is defined by a sophisticated 'marriage of form and decoration,' resulting in stoneware that feels both ancient and contemporary."
+    }, 
+    {
+        "id":4,
+        "name": "Dinner Plate",
+        "description": "A dinner plate made of high quality clay",
+        "price": 400,
+        "dimensions": "10.5 x 5.75 x 2.25",
+        "weight":2.5, 
+        "category": "Plates",
+        "collection": "Dot",
+        "collection_description": "This collection is defined by a sophisticated 'marriage of form and decoration,' resulting in stoneware that feels both ancient and contemporary."
+    }, 
+    {
+        "id":5, 
+        "name": "Sauce Bowl",
+        "description": "A sauce bowl made of high quality clay",
+        "price": 500,
+        "dimensions": "10.5 x 5.75 x 2.25",
+        "weight":2.5, 
+        "category": "Bowls",
+        "collection": "Dot",
+        "collection_description": "This collection is defined by a sophisticated 'marriage of form and decoration,' resulting in stoneware that feels both ancient and contemporary."
+    },
+    {
+        "id":6, 
+        "name" :"Salad Plate",
+        "description": "A salad plate made of high quality clay",
+        "price": 600,
+        "dimensions": "10.5 x 5.75 x 2.25",
+        "weight":2.5, 
+        "category": "Plates",
+        "collection": "Dot",
+        "collection_description": "This collection is defined by a sophisticated 'marriage of form and decoration,' resulting in stoneware that feels both ancient and contemporary."
+    },
+    {
+        "id": 7,
+        "name": "Style A - Soup Mug",
+        "description": "A functional soup mug inspired by tree-leaf forms.",
+        "price": 700,
+        "dimensions": "3.5 x 5 x 7",
+        "weight": 1.2,
+        "category": "Mugs",
+        "collection": "Botanical Leaves",
+        "collection_description": "Botanically inspired functional stoneware pottery and porcelain tiles centering around her affinity for tree leaves."
+    },
+    {
+        "id": 8,
+        "name": "Style B - Leaf Plate",
+        "description": "A leaf-shaped functional plate inspired by organic forms.",
+        "price": 800,
+        "dimensions": "0.5 x 10.5 x 10.5",
+        "weight": 1.8,
+        "category": "Plates",
+        "collection": "Botanical Leaves",
+        "collection_description": "Botanically inspired functional stoneware pottery and porcelain tiles centering around her affinity for tree leaves."
+    },
+    {
+        "id": 9,
+        "name": "Style C - Tall Mug",
+        "description": "A tall functional mug with a leaf-inspired profile.",
+        "price": 900,
+        "dimensions": "4.5 x 3.25 x 5",
+        "weight": 1.1,
+        "category": "Mugs",
+        "collection": "Botanical Leaves",
+        "collection_description": "Botanically inspired functional stoneware pottery and porcelain tiles centering around her affinity for tree leaves."
+    }
+  ]
+}
+

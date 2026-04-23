@@ -1,0 +1,4 @@
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+arize-phoenix>=12.0.0
+arize-phoenix-otel>=0.10.0
