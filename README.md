@@ -452,7 +452,7 @@
         </table>
       </section>
       <section id="reviewer">
-        <h2>What I’d tell a technical reviewer</h2>
+        <h2>Some more decisionsr</h2>
         <ol>
           <li>
             <strong>Why routing, not a pure agent?</strong> Predictable intents; cost/latency;
