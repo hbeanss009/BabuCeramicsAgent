@@ -4,7 +4,7 @@ name: Weekly Batch Eval
 
 on:
   schedule:
-    - cron: ''20 01 * * 0''  # Every Saturday at 5:20 PST 
+    - cron: '25 01 * * 0'  # Every Saturday 5:25 PM PST = Sunday 1:25 AM UTC
   workflow_dispatch:     # Manual trigger
 
 jobs:
