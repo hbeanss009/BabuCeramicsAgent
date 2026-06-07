@@ -231,13 +231,7 @@ Email channel; low volume (10–15 convos/month); human-like response pacing fee
 ### How do you know it works?
 Foundation DB tests + ~50-query golden set + code evals (routing, facts, escalation) + calibrated LLM judge (tone, completeness, rec quality) + thematic failure analysis on edge cases.
 
-## What This Demonstrates
 
-- **Systems thinking:** Fixed orchestration for clarity + strategic LLM placement for efficiency
-- **Evaluating agentic systems:** Golden datasets, code-based evals, LLM-as-judge, calibration against human labels, thematic failure coding
-- **Prompt engineering:** Line-by-line rules, qualitative signals, explicit handling for different query types
-- **Observability:** End-to-end tracing for debugging and cost analysis
-- **Trade-off analysis:** When to use RAG (didn't), when to use frameworks (didn't), when to hand-code (did), why
 
 ## Tags
 
