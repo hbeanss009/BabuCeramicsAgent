@@ -1,10 +1,9 @@
 # .github/workflows/weekly_batch.yml
-
 name: Weekly Batch Eval
 
 on:
   schedule:
-    - cron: '25 01 * * 0'  # Every Saturday 5:25 PM PST = Sunday 1:25 AM UTC
+    - cron: '36 01 * * 0'  # Every Saturday 5:36 PM PST = Sunday 1:36 AM UTC
   workflow_dispatch:     # Manual trigger
 
 jobs:
