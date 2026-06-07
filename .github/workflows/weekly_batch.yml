@@ -1,29 +1,41 @@
-# .github/workflows/weekly_batch.yml
 name: Weekly Batch Eval
 
 on:
   schedule:
-    - cron: '46 01 * * 0'  # Every Saturday 5:36 PM PST = Sunday 1:36 AM UTC
-  workflow_dispatch:     # Manual trigger
+    - cron: '36 01 * * 0'  # Sunday 01:36 UTC (~Saturday 5:36 PM PST / 6:36 PM PDT)
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   weekly_batch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify script path
         run: |
-          pip install -r requirements.txt
-      
+          test -f evals/weekly_batch_from_conversations.py || {
+            echo "::error::Script not found at evals/weekly_batch_from_conversations.py"
+            echo "If your workflow still references eval/, update it to evals/"
+            ls -la evals/ || true
+            exit 1
+          }
+          mkdir -p evals/weekly_batches
+
       - name: Run weekly batch eval
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          HELICONE_API_KEY: ${{ secrets.HELICONE_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
@@ -31,17 +43,13 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: |
-          python eval/weekly_batch_from_conversations.py
-      
-      - name: Create results directory if it doesn't exist
-        run: |
-          mkdir -p eval/weekly_batches
-      
+        run: python evals/weekly_batch_from_conversations.py
+
       - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: weekly_eval_results
-          path: eval/weekly_batches/
+          path: evals/weekly_batches/
           retention-days: 365
+          if-no-files-found: warn
