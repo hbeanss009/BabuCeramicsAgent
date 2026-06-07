@@ -16,6 +16,14 @@ Olivia was spending **15+ hours per month** drafting and reviewing email replies
 **Goal:** Cut manual effort without sacrificing trust, tone, or correctness.
 
 ## Solution: Routing Workflow, Not a Pure Agent
+<img width="615" height="693" alt="Screenshot 2026-06-07 at 12 13 05 PM" src="https://github.com/user-attachments/assets/ea4966dd-038d-46d1-a92f-3ec648f0cabf" />
+<img width="1245" height="432" alt="Screenshot 2026-06-07 at 12 13 51 PM" src="https://github.com/user-attachments/assets/b5d9facc-bacf-4ad5-8189-2a966c7400ad" />
+<img width="628" height="689" alt="Screenshot 2026-06-07 at 12 14 28 PM" src="https://github.com/user-attachments/assets/09ee2565-a717-423a-8cd2-b60eafc829bb" />
+<img width="924" height="523" alt="Screenshot 2026-06-07 at 12 14 50 PM" src="https://github.com/user-attachments/assets/4d6610bd-c1e8-410b-8920-31669cb7428c" />
+<img width="924" height="703" alt="Screenshot 2026-06-07 at 12 17 05 PM" src="https://github.com/user-attachments/assets/1d2fac7a-20fe-4362-b711-7957ab06afb3" />
+<img width="1244" height="440" alt="Screenshot 2026-06-07 at 12 17 24 PM" src="https://github.com/user-attachments/assets/92fd3e92-45b3-496c-8ef1-a73f3cec95cc" />
+<img width="1244" height="440" alt="Screenshot 2026-06-07 at 12 17 43 PM" src="https://github.com/user-attachments/assets/cf888678-09ce-486d-b106-7a97de7a046f" />
+<img width="1244" height="440" alt="Screenshot 2026-06-07 at 12 19 16 PM" src="https://github.com/user-attachments/assets/b068cd7b-cc1a-40fe-9924-a83741eb1b3b" />
 
 Rather than a fully autonomous agent, I chose a **routing agentic workflow**—Python orchestrates the flow deterministically; the LLM runs only at defined, measured steps:
 
