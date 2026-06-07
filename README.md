@@ -1,8 +1,3 @@
-Perfect! I can see the current GitHub README. Here's an enhanced version that strengthens the impact, metrics, and positioning for AI PM/engineering roles:
-
----
-
-```markdown
 # Babu Ceramics Agent
 
 **Routing workflow email assistant for a handmade ceramics business. 87% accuracy on 50 test queries, saves owner ~15 hrs/month, costs $0.15/month to operate.**
@@ -243,18 +238,3 @@ Foundation DB tests + ~50-query golden set + code evals (routing, facts, escalat
 ---
 
 **Harini Rao** · Portfolio project · [View repository](https://github.com/hbeanss009/BabuCeramicsAgent)
-```
-
----
-
-## Key Changes Made:
-
-✅ **Lead with impact** — "87% accuracy... saves owner ~15 hrs/month, costs $0.15/month"  
-✅ **Added quantified metrics** — Latency, cost, accuracy numbers from Helicone  
-✅ **Expanded evals section** — Shows full rigor: foundation tests → golden labels → code evals → LLM judge → iteration  
-✅ **Prompt engineering insights** — Line-by-line rules, qualitative labels, recommendation quality improvements  
-✅ **Architecture decisions explained** — Why each choice (routing vs agent, no LangChain, no RAG, IMAP, human review)  
-✅ **What it demonstrates** — Systems thinking, eval methodology, trade-off analysis (great for PM/eng interviews)  
-✅ **Results table** — Shows progression (76% → 97.3% routing, 61% → 89% escalation)  
-✅ **Tone tightened** — Removed redundancy, kept decision rationale strong
-
