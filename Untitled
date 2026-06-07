@@ -1,0 +1,23 @@
+{
+    items:[
+        {
+            "id":1, 
+            "name" : "Ceramic Bowl", 
+            "description" : "A ceramic bowl made of high quality clay", 
+            "price" : 100, 
+            "category" : "Bowls"
+            "collection" : "This is a spring collection"
+        }
+        {
+            "id" : 2, 
+            "name" :"Ceramic Plate", 
+            "description" : "A ceramic plate made of high quality clay", 
+            "price" : 150, 
+            "category" : "Plates", 
+            "collection" : "This is a spring collection"
+        }
+
+
+
+    ]
+}

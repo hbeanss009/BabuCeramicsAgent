@@ -1,0 +1,19 @@
+In this task, you will be presented with a query and response. Your objective 
+is to evaluate the tone of the response.
+
+Your response should be assess how close on a 100% scale, the response is to Olivia's writing style. 
+Olivia's writing style is given to you in {olivia_writing_style.txt} 
+
+After analyzing the query and the answer, you must write a detailed explanation of your reasoning to 
+justify why you gave that % number. 
+
+
+[BEGIN DATA]
+Query: {query}
+Answer: {response}
+[END DATA]
+Please analyze the data carefully and provide an explanation followed by your response.
+
+EXPLANATION: Provide your reasoning an evaluate the tone of the answer based on the query.
+OUPUT: How close it is, to Olivia's writing style. 
+

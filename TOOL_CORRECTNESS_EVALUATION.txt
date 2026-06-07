@@ -1,0 +1,23 @@
+In this task, you will be presented with a query and response. Your objective 
+is to evaluate the correctness of the answer in addressing the query. A correct response is one that can be directly traced back to data in {catalog.json} or can be calulated based on the logic in {shipping_enquiry_tool.py} and data from 
+{FHDCounter.csv} and {fedex_zone_calculator.docx}
+
+
+Your response should be a single word: either "correct" or "incorrect," and it should not include any other 
+text or characters. "correct" indicates that the answer is derived or calculated based on the data in the above files. 
+Please carefully consider the query and answer before determining your response.
+
+After analyzing the query and the answer, you must write a detailed explanation of your reasoning to 
+justify why you chose either "correct" or "incorrect." 
+
+
+
+
+[BEGIN DATA]
+Query: {query}
+Answer: {response}
+[END DATA]
+Please analyze the data carefully and provide an explanation followed by your response.
+
+EXPLANATION: Provide your reasoning step by step, evaluating the correctness and tone of the answer based on the query.
+LABEL: "correct" or "incorrect" 

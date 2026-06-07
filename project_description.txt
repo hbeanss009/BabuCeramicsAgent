@@ -1,0 +1,30 @@
+So the website will have a form where user can enter their queries and these queries will 
+be sent as an email to the admin account. This agent would then reply to the query in the artist's tone.  
+
+Depending on the query, the agent would use the appropriate tool to answer the question.
+There's a routing agent that sits above these tools and decides which tool to route to based on the query. 
+
+The agent would use the following tools:
+
+1. Pricing tool
+2. Quality tool
+3. Collection tool
+4. Recommendation tool
+5. Order tool
+6. Item inquiry tool
+7. Artist inquiry tool
+8. Artist inquiry tool
+
+
+#architecture decisions 
+
+
+2. Database
+
+"My specific recommendation: Supabase (PostgreSQL under the hood)
+Here's why it's a great fit for each part of your system:
+For the catalog — PostgreSQL gives you clean relational tables for items, collections, pricing, and artists. Your tools (pricing, collection, recommendation, item inquiry, etc.) all map naturally to simple SQL queries against these tables.
+For the agent tools — Supabase exposes a REST API and client libraries out of the box, so each tool can query the catalog without you needing to build a custom API layer from scratch.
+For the email/conversation flow — Supabase also has a conversations or threads table you can add to log queries and replies, which is useful for context if you ever want the agent to remember prior exchanges.
+For recommendations — Supabase supports pgvector, a PostgreSQL extension for vector embeddings. This is perfect if you later want semantic/AI-powered recommendations (e.g. "find items similar to this one").
+Free tier is generous — more than enough for a project of this size."

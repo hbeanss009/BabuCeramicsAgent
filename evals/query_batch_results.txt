@@ -1,0 +1,1144 @@
+/Users/harinirao/Documents/BabuCeramicsAgent/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Running 40 cases (49 turns)...
+
+================================================================================
+[1/40] How much is the Rain Song Vase?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": "Rain Song Vase",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry'] confidence={'item_inquiry': 'high'} primary=item_inquiry
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: False
+Olivia: Hi there, The Rain Song Vase is $68.00. It&#x27;s part of my Spring collection, hand-sculpted in stoneware with rippled ridges that echo raindrops landing on a still pond at dawn. The piece is 4×4×10 inches, and because it&#x27;s stoneware, it&#x27;s durable and dishwasher safe, making it both beautiful and practical for everyday use. Warmly, Olivia Babu
+
+================================================================================
+[2/40] My order arrived completely broken, I'm really upset
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['returns_enquiry_tool']
+Order confidence: {'returns_enquiry_tool': 'high'}
+Order primary: returns_enquiry_tool
+Human review: True
+Olivia: [FLAGGED FOR HUMAN REVIEW — no auto-reply]
+
+================================================================================
+[3/40] I'd like to place a custom order for 2 mugs in sage green
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['custom_order_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high'}
+Order primary: custom_order_enquiry_tool
+Human review: False
+Olivia: Hi! I'd love to make those sage green mugs for you. To get started, I just need a couple more details, please, so I can give you an accurate timeline and price. When do you need them by? And do you have any inspiration images or references for the style or texture you're after, or shall we chat through what you're imagining?
+
+================================================================================
+[4/40] Tell me about the Spring collection
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "collection_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "collection_inquiry"
+}
+```
+[classifier] intents=['collection_inquiry'] confidence={'collection_inquiry': 'high'} primary=collection_inquiry
+Intents: ['collection_inquiry']
+Confidence: {'collection_inquiry': 'high'}
+Primary: collection_inquiry
+Human review: False
+Olivia: Hi there, I created the Spring collection on an early April morning when I heard the first robin of the year singing outside my studio window, and it&#x27;s all about renewal, the quiet sounds and soft movements of nature waking up after winter. Each piece carries a water or birdsong reference, whether in form or texture, so they feel like little celebrations of those gentle moments we notice when we slow down. The collection includes the Rain Song Vase ($68.00) with rippled ridges that echo raindrops landing on a still pond at dawn, the Robin&#x27;s Call Mug ($42.00) hand-painted with a delicate robin silhouette on matte sage glaze, and the Brook Whisper Bowl ($55.00) with a flowing wave rim that feels like water moving over smooth stones. I think these pieces work beautifully for anyone who loves the outdoors, appreciates quiet mornings, or wants their home to feel calm and grounded, and they&#x27;re especially lovely gifts for people who love gardening or mindful living. Warmly, Olivia Babu
+
+================================================================================
+[5/40] Can I put the Robin's Call Mug in the dishwasher?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": "Robin's Call Mug",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry'] confidence={'item_inquiry': 'high'} primary=item_inquiry
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: False
+Olivia: Hi there, I&#x27;d recommend hand washing your Robin&#x27;s Call Mug rather than putting it in the dishwasher. Because it&#x27;s made from earthenware, which is fired at lower temperatures than stoneware or porcelain, it&#x27;s more porous and can absorb water and detergents over time, which weakens the piece and can cause crazing or cracking. The hand-painted robin silhouette is delicate too, so it deserves a gentle touch. To care for it, I suggest washing by hand in warm water with mild soap and drying it right away with a soft cloth, never letting it soak. With proper care, your mug will develop a beautiful patina over time and continue to bring that morning birdsong feeling to your hands for years to come. Warmly, Olivia Babu
+
+================================================================================
+[6/40] I love the Rain Song Vase, it's so beautiful
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": "Rain Song Vase",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry'] confidence={'item_inquiry': 'high'} primary=item_inquiry
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: True
+Olivia: [FLAGGED FOR HUMAN REVIEW — no auto-reply]
+
+================================================================================
+[7/40] How much is the Citrus Zest Plate and can I put it in the dishwasher?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": "Citrus Zest Plate",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry'] confidence={'item_inquiry': 'high'} primary=item_inquiry
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: False
+Olivia: Hi there, The Citrus Zest Plate is $52.00, and yes, you can absolutely put it in the dishwasher! It&#x27;s made from porcelain, which I fire at the highest temperatures to create pieces that are both refined and durable. The glossy lemon-yellow glaze with hand-etched citrus slice motifs will hold up beautifully to regular washing. That said, if you want to preserve the glaze at its absolute best over time, I do recommend hand washing with warm soapy water when you can. Porcelain is a bit more delicate around the rims than my stoneware pieces, so gentle handling is ideal, but it&#x27;s definitely dishwasher safe and microwave safe too. This plate is part of my Summer collection, inspired by picking berries and stone fruit in my grandmother&#x27;s garden, so it&#x27;s designed to bring that joyful, colourful feeling to your table. Warmly, Olivia Babu
+
+================================================================================
+[8/40] What material is the Brook Whisper Bowl and what collection is it from?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    },
+    {
+      "intent": "collection_inquiry",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": "Brook Whisper Bowl",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry', 'collection_inquiry'] confidence={'item_inquiry': 'high', 'collection_inquiry': 'medium'} primary=item_inquiry
+Intents: ['item_inquiry', 'collection_inquiry']
+Confidence: {'item_inquiry': 'high', 'collection_inquiry': 'medium'}
+Primary: item_inquiry
+Routed: ['item_inquiry']
+Human review: False
+Olivia: Hi there, The Brook Whisper Bowl is made from porcelain, which I fire at the highest temperatures to create that refined, delicate quality. It&#x27;s part of my Spring collection, which was inspired by the quiet sounds and soft movements of nature waking up after winter. The bowl&#x27;s flowing wave rim is sculpted to echo water moving over smooth stones, capturing that gentle murmur of a spring brook. The Spring collection is all about renewal and calm, perfect for anyone who loves the outdoors and wants their home to feel grounded and peaceful. Since it&#x27;s porcelain, the bowl is both dishwasher and microwave safe, though I recommend hand washing with warm soapy water if you want to keep the glaze looking its absolute best. Just handle it with a bit of care around the rim, as porcelain is more delicate than my stoneware pieces. Warmly, Olivia Babu
+
+================================================================================
+[9/40] How long does shipping take and do you ship internationally?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['shipping_enquiry_tool']
+Order confidence: {'shipping_enquiry_tool': 'high'}
+Order primary: shipping_enquiry_tool
+Human review: False
+Olivia: Standard shipping takes 3 to 5 business days within the UK, and I do ship internationally to most countries, which typically takes 7 to 14 business days. Each piece is wrapped individually in tissue paper and packed in double-walled cardboard boxes with protective padding. You'll get a tracking number by email as soon as your order ships. Are you looking to order something specific, or just checking on general shipping?
+
+================================================================================
+[10/40] Tell me about the Rain Song Vase and suggest something similar under $60
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {"intent": "item_inquiry", "confidence": "high"},
+    {"intent": "recommendation", "confidence": "high"}
+  ],
+  "named_item": "Rain Song Vase",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry', 'recommendation'] confidence={'item_inquiry': 'high', 'recommendation': 'high'} primary=item_inquiry
+Intents: ['item_inquiry', 'recommendation']
+Confidence: {'item_inquiry': 'high', 'recommendation': 'high'}
+Primary: item_inquiry
+Running item_inquiry (high confidence)
+Running recommendation (high confidence)
+Human review: False
+Olivia: Hi there, The Rain Song Vase is one of my favorite pieces from the Spring collection, crafted in stoneware with rippled textures that mimic raindrops falling on a still pond at dawn. It's 4×4×10 inches, durable enough for everyday use, and completely dishwasher safe, so it's as practical as it is beautiful. The piece captures that quiet moment of renewal that inspired the whole Spring collection, and it works wonderfully in natural, earthy spaces. Since you're looking for something under $60, I'd suggest the Brook Whisper Bowl from the same Spring collection at $55. It has that same water-inspired aesthetic with a flowing wave rim sculpted to echo a spring brook, and it's made from porcelain so it has a really refined quality. Both pieces pair beautifully together if you're drawn to that calm, nature-connected style. Warmly, Olivia
+
+================================================================================
+[11/40] I'd like a custom order for 2 mugs — how long will it take and how much will it cost?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {"intent": "orders", "confidence": "high"},
+    {"intent": "recommendation", "confidence": "medium"}
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders', 'recommendation'] confidence={'orders': 'high', 'recommendation': 'medium'} primary=orders
+Intents: ['orders', 'recommendation']
+Confidence: {'orders': 'high', 'recommendation': 'medium'}
+Primary: orders
+Routed: ['orders']
+Order tools: ['custom_order_enquiry_tool', 'shipping_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high', 'shipping_enquiry_tool': 'medium'}
+Order primary: custom_order_enquiry_tool
+Running custom_order_enquiry_tool (high confidence)
+Running shipping_enquiry_tool (medium confidence)
+Human review: False
+Olivia: Could you tell me a bit more about what you're envisioning, like the size you'd prefer, any particular colours or textures you love, your budget range, and when you'd ideally need them by, so I can give you an accurate quote?
+
+================================================================================
+[12/40] What's your returns policy and how do I start a return?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['returns_enquiry_tool']
+Order confidence: {'returns_enquiry_tool': 'high'}
+Order primary: returns_enquiry_tool
+Human review: False
+Olivia: Hi there, I'm happy to help! Returns are reviewed on a case-by-case basis. To get started, I'll need a few details from you, one at a time. First, what item are you looking to return, or do you have your order number handy?
+
+================================================================================
+[13/40] I want something nice
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'medium'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'medium'}
+Primary: recommendation
+[run_router error] Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: f507db65-1976-4246-9d43-60b6ca8a4d3e, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."}, 'request_id': 'req_011CbimmbkY3enUs2aaAHYLR'}
+Human review: False
+Olivia: I hit a connection issue while processing your request. Please retry in a moment.
+
+================================================================================
+[14/40] I need a gift
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to help you find the perfect gift! Is this for a special occasion like a birthday or housewarming, or are you looking for something based on a particular style or person in mind?
+
+================================================================================
+[15/40] I want something for my home
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'medium'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'medium'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to help you find something perfect for your space! Are you looking for a piece to display on a shelf or table, or something functional like a bowl or mug for everyday use?
+
+================================================================================
+[16/40] Something boho for my room under $100
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68, which has that natural, handcrafted rippled texture that feels so boho and calming, or the Copperleaf Vase at $78 if you want something more of a statement piece with its reactive copper-oxide glaze that blooms in warm russet and gold tones. Both would look beautiful on a shelf or dresser and bring that earthy, organic feel to your space. Rain Song Vase , $68.00 Copperleaf Vase , $78.00
+
+================================================================================
+[17/40] I need a housewarming gift under $70
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68 for a housewarming because its rippled stoneware texture has a natural, handcrafted feel that works beautifully in almost any room. It&#x27;s the kind of piece that makes a space feel considered and lived-in from day one. Rain Song Vase , $68.00
+
+================================================================================
+[18/40] Something earthy and natural for my living room shelf
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68, it has a rippled stoneware texture that feels handcrafted and natural, perfect for a living room shelf. The Copperleaf Vase at $78 is another beautiful option with a reactive copper-oxide glaze that blooms in warm russet and gold tones, creating that earthy, organic feel you&#x27;re looking for. Rain Song Vase , $68.00 Copperleaf Vase , $78.00
+
+================================================================================
+[19/40] I'm looking for a gift for my mum who loves gardening
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: How lovely, your mum sounds wonderful! I&#x27;d recommend the Rain Song Vase at $68, which has rippled texture mimicking raindrops on a still pond, the Robin&#x27;s Call Mug at $42 with a hand-painted robin on sage glaze, and the Brook Whisper Bowl at $55 with a flowing wave rim. All three are from my Spring collection, which was inspired by nature and the quiet beauty of the outdoors waking up, so they feel perfect for someone who loves gardening and the natural world. Rain Song Vase , $68.00 Robin&#x27;s Call Mug , $42.00 Brook Whisper Bowl , $55.00
+
+================================================================================
+[20/40] Turn 1: I want something nice / Turn 2: For my living room
+================================================================================
+
+--- Turn 1 ---
+User: I want something nice
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'medium'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'medium'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to help you find something special! Are you looking for a piece for your own space, or is this a gift for someone?
+
+--- Turn 2 ---
+User: For my living room
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'medium'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'medium'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to help you find something special! Are you looking for a piece for your own space, or is this a gift for someone?
+
+================================================================================
+[21/40] Something boho and earthy for my shelf
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68 for a boho shelf, it has that rippled stoneware texture that feels naturally handcrafted and earthy. The Copperleaf Vase at $78 would also be stunning on a shelf if you want something with more presence, the reactive copper glaze blooms in warm russet and gold tones that feel very organic and collected. Rain Song Vase , $68.00 Copperleaf Vase , $78.00
+
+================================================================================
+[22/40] Something minimalist and clean for my desk
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68 for your desk, it has a beautifully minimal form with just rippled texture in soft stoneware that feels calm and grounded without any decoration. The Robin&#x27;s Call Mug at $42 is another clean option if you&#x27;d prefer something functional for your morning coffee, with just a single hand-painted robin silhouette on matte sage. Rain Song Vase , $68.00 Robin&#x27;s Call Mug , $42.00
+
+================================================================================
+[23/40] Something warm and cosy for my kitchen
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Harvest Umber Mug at $48 for a warm, cosy kitchen, it has a chestnut glaze with pressed leaf impressions that feels like autumn mornings. If you want something larger for the counter or table, the Ember Glow Platter at $95 is stunning for serving and has that rich, amber warmth that makes a kitchen feel inviting. Harvest Umber Mug , $48.00 Ember Glow Platter , $95.00
+
+================================================================================
+[24/40] I need a housewarming gift around $70
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68 for a housewarming, because it&#x27;s the kind of piece that makes a space feel thoughtful and settled right away. The rippled texture is calming and works beautifully in almost any room. If you&#x27;d like something with more colour, the Berry Blush Bowl at $62 is generous and warm, perfect for a kitchen or dining table. Rain Song Vase , $68.00 Berry Blush Bowl , $62.00
+
+================================================================================
+[25/40] A wedding gift for a couple who love cooking
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: For a couple who love cooking, I&#x27;d recommend the Ember Glow Platter at $95 because it&#x27;s generous enough to be a centrepiece at their dinner table and the gradient glaze makes it genuinely beautiful for serving. The Peach Dusk Pitcher at $85 is lovely for entertaining, perfect for cold drinks at gatherings. And the Brook Whisper Bowl at $55 is quieter but has a quality that feels timeless, ideal for salads or sides. Together they create a thoughtful collection of pieces they&#x27;ll use and treasure. Ember Glow Platter , $95.00 Peach Dusk Pitcher , $85.00 Brook Whisper Bowl , $55.00
+
+================================================================================
+[26/40] Something under $50
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to help you find something under $50! Are you looking for a gift, or something for your own space?
+
+================================================================================
+[27/40] I want to splash out, something special around $90
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Ember Glow Platter at $95, it&#x27;s my most striking piece with a gradient glaze that sweeps from burnt sienna to deep amber like looking up through autumn leaves at golden light, or the Peach Dusk Pitcher at $85 if you prefer something you can use every day, perfect for cold drinks with its soft peach-to-blush ombré glaze. Ember Glow Platter , $95.00 Peach Dusk Pitcher , $85.00
+
+================================================================================
+[28/40] I need a dinner set for entertaining
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I have the perfect pieces for entertaining. The Ember Glow Platter is my favourite for this, a large serving platter with a gradient glaze that sweeps from burnt sienna to deep amber, made for gatherings and generous enough to be a centrepiece. I&#x27;d pair it with the Berry Blush Bowl, which has a vivid strawberry-red interior and is perfect for salads or sides, and the Citrus Zest Plate, a cheerful lemon-yellow piece with hand-etched citrus motifs that brings brightness to the table. Together they have that collected-over-time feel rather than a matching set, which I think is much more interesting for entertaining. Ember Glow Platter , $95.00 Berry Blush Bowl , $62.00 Citrus Zest Plate , $52.00
+
+================================================================================
+[29/40] Turn 1: Tell me about the Rain Song Vase / Turn 2: Does it come in other sizes?
+================================================================================
+
+--- Turn 1 ---
+User: Tell me about the Rain Song Vase
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": "Rain Song Vase",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry'] confidence={'item_inquiry': 'high'} primary=item_inquiry
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: False
+Olivia: Hi there, The Rain Song Vase is one of my favorite pieces from my Spring collection, sculpted with rippled ridges that echo raindrops landing on a still pond at dawn. It stands 10 inches tall with a 4 by 4 inch base, making it a graceful presence on a shelf or table. I crafted it in stoneware, which I fire at very high temperatures to create a dense, durable material that&#x27;s both dishwasher and microwave safe, so it&#x27;s as practical as it is beautiful. The Spring collection was born on an early April morning when I heard the first robin of the year singing outside my studio window, and I wanted to capture that feeling of renewal and quiet natural beauty. The vase suits people who love the outdoors and appreciate calm, grounded spaces, and it works beautifully in natural, earthy interiors with linen, wood, and stone. It&#x27;s priced at $68 and makes a thoughtful gift for someone who loves nature or mindful living. Warmly, Olivia Babu
+
+--- Turn 2 ---
+User: Does it come in other sizes?
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "item_inquiry"
+}
+```
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: True
+Olivia: [FLAGGED FOR HUMAN REVIEW — no auto-reply]
+
+================================================================================
+[30/40] Turn 1: I'm looking for something for a boho room / Turn 2: What about something
+================================================================================
+
+--- Turn 1 ---
+User: I'm looking for something for a boho room
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: For a boho room I&#x27;d recommend the Rain Song Vase at $68, which has a rippled stoneware texture that feels naturally handcrafted and works beautifully in earthy, organic spaces. The Brook Whisper Bowl at $55 would also be lovely, with its flowing wave rim that echoes natural water movement, and both pieces have that calm, grounded feeling boho interiors need. Rain Song Vase , $68.00 Brook Whisper Bowl , $55.00
+
+--- Turn 2 ---
+User: What about something for under $50?
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: For a boho room I&#x27;d recommend the Rain Song Vase at $68, which has a rippled stoneware texture that feels naturally handcrafted and works beautifully in earthy, organic spaces. The Brook Whisper Bowl at $55 would also be lovely, with its flowing wave rim that echoes natural water movement, and both pieces have that calm, grounded feeling boho interiors need. Rain Song Vase , $68.00 Brook Whisper Bowl , $55.00
+
+================================================================================
+[31/40] Turn 1: I'd like to place a custom order / Turn 2: 2 bowls in terracotta, needed
+================================================================================
+
+--- Turn 1 ---
+User: I'd like to place a custom order
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['custom_order_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high'}
+Order primary: custom_order_enquiry_tool
+Human review: False
+Olivia: That's wonderful! I'd love to help you create something special. To get started, could you tell me a bit more about what you have in mind? It helps to know: - What item are you thinking of? (e.g. a vase, set of bowls, mug, platter) - How many pieces would you need? - When do you need it by? - Are there any colours, textures, or inspiration images that speak to you? Custom work typically takes six to eight weeks, so knowing your timeline helps me figure out if we can make it work. Looking forward to hearing your ideas!
+
+--- Turn 2 ---
+User: 2 bowls in terracotta, needed by end of August
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['custom_order_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high'}
+Order primary: custom_order_enquiry_tool
+Human review: False
+Olivia: That's wonderful! I'd love to help you create something special. To get started, could you tell me a bit more about what you have in mind? It helps to know: - What item are you thinking of? (e.g. a vase, set of bowls, mug, platter) - How many pieces would you need? - When do you need it by? - Are there any colours, textures, or inspiration images that speak to you? Custom work typically takes six to eight weeks, so knowing your timeline helps me figure out if we can make it work. Looking forward to hearing your ideas!
+
+================================================================================
+[32/40] Turn 1: Tell me about the Spring collection / Turn 2: Which piece would you reco
+================================================================================
+
+--- Turn 1 ---
+User: Tell me about the Spring collection
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "collection_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "collection_inquiry"
+}
+```
+[classifier] intents=['collection_inquiry'] confidence={'collection_inquiry': 'high'} primary=collection_inquiry
+Intents: ['collection_inquiry']
+Confidence: {'collection_inquiry': 'high'}
+Primary: collection_inquiry
+Human review: False
+Olivia: Hi there, I created the Spring collection after hearing the first robin of the year singing outside my studio window one early April morning, and it&#x27;s all about renewal, the quiet sounds and soft movements of nature waking up after winter. Each piece carries a water or birdsong reference, whether it&#x27;s the rippled ridges of the Rain Song Vase that echo raindrops landing on a still pond at dawn, or the Robin&#x27;s Call Mug hand-painted with a delicate robin silhouette on matte sage glaze. The Brook Whisper Bowl has a flowing wave rim that feels like water moving over smooth stones. I designed these pieces for people who love the outdoors and appreciate quiet mornings, wanting their homes to feel calm and grounded. They work beautifully in natural, earthy interiors with linen, wood, and stone, and they make wonderful gifts for anyone who loves nature or mindful living. The collection ranges from $42 to $68, with the Robin&#x27;s Call Mug at $42, the Brook Whisper Bowl at $55, and the Rain Song Vase at $68. Warmly, Olivia Babu
+
+--- Turn 2 ---
+User: Which piece would you recommend for a gift?
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to suggest something, could you share a bit more about the occasion, budget, or style you're going for?
+
+================================================================================
+[33/40] Turn 1: Something boho under $100 / Turn 2: I like it but want something with mo
+================================================================================
+
+--- Turn 1 ---
+User: Something boho under $100
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68, which has that rippled, handcrafted texture that feels so naturally boho, or the Brook Whisper Bowl at $55 with its flowing wave rim that echoes water moving over stones, both from my Spring collection and perfect for creating that calm, earthy boho feel in any space. Rain Song Vase , $68.00 Brook Whisper Bowl , $55.00
+
+--- Turn 2 ---
+User: I like it but want something with more colour
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68, which has that rippled, handcrafted texture that feels so naturally boho, or the Brook Whisper Bowl at $55 with its flowing wave rim that echoes water moving over stones, both from my Spring collection and perfect for creating that calm, earthy boho feel in any space. Rain Song Vase , $68.00 Brook Whisper Bowl , $55.00
+
+================================================================================
+[34/40] Turn 1: How much is the Copperleaf Vase? / Turn 2: Is it dishwasher safe?
+================================================================================
+
+--- Turn 1 ---
+User: How much is the Copperleaf Vase?
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "high"
+    }
+  ],
+  "named_item": "Copperleaf Vase",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry'] confidence={'item_inquiry': 'high'} primary=item_inquiry
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: False
+Olivia: Hi there, The Copperleaf Vase is $78.00. It&#x27;s part of my Fall collection, and it&#x27;s one of my favorite pieces, the tall slender silhouette with that reactive copper-oxide glaze that blooms in russet and gold. What makes it special is that each vase is unique, the glaze shifts slightly differently on every piece depending on the firing, so yours will be one of a kind. It&#x27;s made from porcelain, so it&#x27;s refined and delicate, and if you want to preserve that beautiful glaze at its best, I&#x27;d recommend hand washing it with warm soapy water rather than the dishwasher. Warmly, Olivia Babu
+
+--- Turn 2 ---
+User: Is it dishwasher safe?
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "item_inquiry",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "item_inquiry"
+}
+```
+Intents: ['item_inquiry']
+Confidence: {'item_inquiry': 'high'}
+Primary: item_inquiry
+Human review: False
+Olivia: Hi there, The Copperleaf Vase is technically dishwasher safe, but I&#x27;d recommend hand washing it if you want to preserve that beautiful reactive copper-oxide glaze at its best. The glaze is what makes each vase so special, and hand washing with warm soapy water will keep it looking its most vibrant. Since porcelain can chip more easily than stoneware, especially around the rim, gentle hand care is the kindest approach anyway. The glaze may shift slightly in colour over time with use, which is actually a natural and lovely characteristic of the piece. Warmly, Olivia Babu
+
+================================================================================
+[35/40] Turn 1: I want something for my mum's birthday / Turn 2: She loves nature and ea
+================================================================================
+
+--- Turn 1 ---
+User: I want something for my mum's birthday
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: How lovely! To help me find the perfect piece for your mum, could you tell me a bit about her style, is she someone who loves nature and calm mornings, warm cosy spaces, or bright colourful things? Or if you'd prefer, let me know what she enjoys doing and I can suggest something from there.
+
+--- Turn 2 ---
+User: She loves nature and earthy things, budget around $70
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to suggest something, could you share a bit more about the occasion, budget, or style you're going for?
+
+================================================================================
+[36/40] Something nice for my friend
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "medium"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'medium'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'medium'}
+Primary: recommendation
+Human review: False
+Olivia: I'd love to help you find something special for your friend! To point you in the right direction, could you tell me a bit about what they love, are they into cooking and entertaining, do they prefer calm and nature-inspired pieces, or are they someone who loves colour and brightness in their space?
+
+================================================================================
+[37/40] I need a dinner set and what's your returns policy?
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {"intent": "recommendation", "confidence": "high"},
+    {"intent": "orders", "confidence": "high"}
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation', 'orders'] confidence={'recommendation': 'high', 'orders': 'high'} primary=recommendation
+Intents: ['recommendation', 'orders']
+Confidence: {'recommendation': 'high', 'orders': 'high'}
+Primary: recommendation
+Running recommendation (high confidence)
+Running orders (high confidence)
+Order tools: ['custom_order_enquiry_tool', 'returns_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high', 'returns_enquiry_tool': 'high'}
+Order primary: custom_order_enquiry_tool
+Running custom_order_enquiry_tool (high confidence)
+Running returns_enquiry_tool (high confidence)
+Human review: False
+Olivia: I'd love to help you with a dinner set! I have some beautiful pieces I'd recommend putting together, like the Ember Glow Platter at $95, the Berry Blush Bowl at $62, and the Citrus Zest Plate at $52, which create that lovely collected-over-time feel rather than matching perfectly. I also do custom work if you'd like me to create something specifically tailored to you, so if you have particular colours, textures, or a certain number of place settings in mind, I'd be happy to explore that with you. As for returns, I handle each one personally on a case-by-case basis. If you ever need to return something, just reach out with your order details and let me know what's going on, and I'll review it and get back to you. I'm here to make sure things work out fairly for you.
+
+================================================================================
+[38/40] Turn 1: Suggest something boho / Turn 2: What about something under $50?
+================================================================================
+
+--- Turn 1 ---
+User: Suggest something boho
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68, it has that natural, handcrafted rippled texture that feels so boho and organic. The Brook Whisper Bowl at $55 is another beautiful option with its flowing wave rim that echoes water over stones, perfect for a relaxed, earthy space. Both pieces from my Spring collection have that calm, nature-inspired boho feel. Rain Song Vase , $68.00 Brook Whisper Bowl , $55.00
+
+--- Turn 2 ---
+User: What about something under $50?
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "recommendation",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "recommendation"
+}
+```
+[classifier] intents=['recommendation'] confidence={'recommendation': 'high'} primary=recommendation
+Intents: ['recommendation']
+Confidence: {'recommendation': 'high'}
+Primary: recommendation
+Human review: False
+Olivia: I&#x27;d suggest the Rain Song Vase at $68, it has that natural, handcrafted rippled texture that feels so boho and organic. The Brook Whisper Bowl at $55 is another beautiful option with its flowing wave rim that echoes water over stones, perfect for a relaxed, earthy space. Both pieces from my Spring collection have that calm, nature-inspired boho feel. Rain Song Vase , $68.00 Brook Whisper Bowl , $55.00
+
+================================================================================
+[39/40] Tell me about the Rain Song Vase and suggest something similar but cheaper
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {"intent": "item_inquiry", "confidence": "high"},
+    {"intent": "recommendation", "confidence": "high"}
+  ],
+  "named_item": "Rain Song Vase",
+  "primary_intent": "item_inquiry"
+}
+```
+[classifier] intents=['item_inquiry', 'recommendation'] confidence={'item_inquiry': 'high', 'recommendation': 'high'} primary=item_inquiry
+Intents: ['item_inquiry', 'recommendation']
+Confidence: {'item_inquiry': 'high', 'recommendation': 'high'}
+Primary: item_inquiry
+Running item_inquiry (high confidence)
+Running recommendation (high confidence)
+Human review: True
+Olivia: [FLAGGED FOR HUMAN REVIEW — no auto-reply]
+
+================================================================================
+[40/40] I'd like 2 custom mugs in sage green, needed by July, here's my inspiration: [link]
+================================================================================
+[classifier] raw: ```json
+{
+  "intents": [
+    {
+      "intent": "orders",
+      "confidence": "high"
+    }
+  ],
+  "named_item": null,
+  "primary_intent": "orders"
+}
+```
+[classifier] intents=['orders'] confidence={'orders': 'high'} primary=orders
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['custom_order_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high'}
+Order primary: custom_order_enquiry_tool
+Human review: True
+Olivia: [FLAGGED FOR HUMAN REVIEW — no auto-reply]
+
+age': "This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: f507db65-1976-4246-9d43-60b6ca8a4d3e, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."}, 'request_id': 'req_011CbimsEeCjLurpkM2r9oai'}
+Intents: ['orders']
+Confidence: {'orders': 'high'}
+Primary: orders
+Order tools: ['custom_order_enquiry_tool']
+Order confidence: {'custom_order_enquiry_tool': 'high'}
+Order primary: custom_order_enquiry_tool
+Human review: True
+Olivia: [FLAGGED FOR HUMAN REVIEW — no auto-reply]
+

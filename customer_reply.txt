@@ -1,0 +1,18 @@
+So the website will have a form where user can enter their queries and these queries will 
+be sent as an email to the admin account. This agent would then reply to that user in the artist's tone and sound
+like a real human. 
+
+
+Depending on the query, the agent would use the appropriate tool to answer the question.
+There's a routing agent that sits above these tools and decides which tool to route to based on the query. 
+
+The agent would use the following tools:
+
+1. Pricing tool
+2. Quality tool
+3. Collection tool
+4. Recommendation tool
+5. Order tool
+6. Item inquiry tool
+7. Artist inquiry tool
+8. Artist inquiry tool

@@ -1,0 +1,112 @@
+Id,query ,response 
+1,"""How much is the Rain Song Vase?""","Hi there,
+
+The Rain Song Vase is $68.00. It's part of our Spring collection and features that beautiful rippled texture that mimics raindrops falling on a still pond at dawn, each ridge is hand-sculpted to capture that quiet, peaceful moment of renewal. It's made from stoneware, so it's durable and dishwasher safe if you ever need to clean it that way, though hand washing with warm soapy water keeps the glaze looking its best.
+
+It's a lovely piece if you're drawn to nature-inspired design or looking for something to bring calm into your space. The Spring collection really suits people who love quiet mornings and earthy interiors.
+
+Warmly,
+Olivia Babu
+(image attached)"
+2,"""Can I put the Robin's Call Mug in the dishwasher?""","Hi there,
+
+The Robin's Call Mug is earthenware, which means it's best kept out of the dishwasher. Because earthenware is fired at lower temperatures than stoneware or porcelain, it's slightly porous and can absorb water and detergents over time — this can weaken the piece and cause crazing or cracking. The hand-painted robin silhouette on your mug is delicate too, so it deserves a gentle touch.
+
+Hand wash it in warm water with mild soap and dry it right away with a soft cloth. Avoid soaking it, and treat those painted details gently. With proper care, your Robin's Call Mug will develop a beautiful patina over time and keep that morning birdsong feeling alive in your hands for years to come.
+
+Warmly,
+Olivia Babu(image attached)"
+3,"""Tell me about the Spring collection""","
+Hi there,
+
+The Spring collection is all about renewal and those quiet moments when nature wakes up after winter. I was inspired by the first robin I heard singing outside my studio one April morning, and each piece in the collection carries a water or birdsong reference—whether it's in the form or the texture. The Rain Song Vase has rippled ridges that echo raindrops landing on a still pond at dawn, the Robin's Call Mug features a delicate hand-painted robin on a matte sage glaze, and the Brook Whisper Bowl has a flowing wave rim that feels like water moving over smooth stones. Pieces range from $42 to $68.
+
+I designed this collection for people who love the outdoors and appreciate quiet mornings—it's meant to bring calm and groundedness into your home. It works beautifully in natural, earthy spaces with linen, wood, and stone, and it's also wonderful as a gift for someone who loves gardening or mindful living.
+
+Warmly,
+Olivia Babu"
+4,"""How much is the Blue Ocean Bowl?""",I couldn't find an item named Blue Ocean Bowl. Could you double-check the name?
+5,"""Something boho for my room under $100""","The Rain Song Vase at $68 would be perfect for a boho room — the rippled stoneware texture has that natural, handcrafted feel and the soft water-inspired form brings calm to a space. The Copperleaf Vase at $78 is another beautiful option if you want something more striking — the reactive copper-oxide glaze blooms in russet and gold, giving it that earthy, organic boho aesthetic. Both work beautifully in natural interiors with linen, wood, and stone. x Olivia"
+6,"""I need a housewarming gift""
+","How lovely! For a housewarming I always think about pieces that feel like home — something that sits on a shelf or table and makes a space feel considered. I'd recommend the Rain Song Vase at $68, which works in almost any room with its gentle rippled texture. The Berry Blush Bowl at $62 is generous and warm, perfect for a kitchen or dining space. And if you want something that will really be noticed, the Copperleaf Vase at $78 has a striking reactive copper-oxide glaze that blooms differently on every piece. Any of these would make a thoughtful welcome-home gift. x Olivia"
+7,"""I'm looking for a full dinner set""
+",Could you share the item name so I can pull the right details for you?
+8,"""I want something nice and what's the weight of the whisper bowl?
+","
+
+
+I couldn't find an item named Whisper Bowl. Could you double-check the name?"
+9,Give me all the items in the Spring collection ,"Hi there,
+
+The Spring collection celebrates renewal and the quiet magic of nature waking up after winter. Each piece is inspired by water and birdsong, the gentle sounds and soft movements that mark the season's arrival. The collection ranges from $42 to $68, with pieces like the Rain Song Vase (sculpted with rippled ridges that echo raindrops on still ponds), the Robin's Call Mug (hand-painted with a delicate robin silhouette on matte sage), and the Brook Whisper Bowl (with a flowing wave rim that feels like water moving over smooth stones).
+
+These pieces are perfect if you love the outdoors, appreciate quiet mornings, and want your home to feel calm and grounded. They work beautifully in natural, earthy spaces—think linen, wood, and stone and make thoughtful gifts for anyone who loves nature, gardening, or mindful living.
+
+Warmly,
+Olivia Babu"
+10,"""How long does shipping take?""",Standard shipping takes 3 to 5 business days within the UK. Each piece is wrapped individually in tissue paper and packed in double-walled cardboard boxes with protective padding. International shipping is available to most countries and typically takes 7 to 14 business days. A tracking number is sent by email as soon as your order is dispatched.
+11,"""What is your returns policy?""","Returns are reviewed on a case-by-case basis by me personally. If you'd like to request a return, just let me know your order number, the item name, and a brief description of why you'd like to return it — I'll review your request and get back to you with a decision. Every situation is different, and I take the time to consider each one individually to make sure it's handled fairly."
+12,"""I'd like to place a custom order for 2 mugs""","That sounds lovely! I'd love to help you create a pair of mugs. To get started, could you tell me a bit more about what you have in mind?
+
+A few things that would help:
+- What colours or textures are you drawn to?
+- Is there a particular use or feel you're going for?
+- When would you need them by?
+- Do you have any inspiration images or references?
+
+Also helpful to know your budget range if you have one in mind. Custom work typically takes six to eight weeks, so knowing your timeline helps me make sure we can make it work."
+13,"""I'd like 2 custom mugs in sage green, needed by end of July, here's my inspiration:<link to inspo items>""","Form submission flagged for human review
+
+Thread ref: 3e54ed83-05f0-44f8-9d87-6bc9891a4fc5
+Name: Harini Rao Annamaneni
+Email: hrao2489@gmail.com
+Message:
+""I'd like 2 custom mugs in sage green, needed by end of July, here's my inspiration: https://www.flickr.com/photos/mayhsueh/8281040362/?utm_source=Pinterest&utm_medium=organic"
+14,"Follow up conversation : First message: ""Tell me about the Rain Song Vase""
+Reply:         ""Does it come in other sizes?""
+Expected: Agent knows ""it"" refers to Rain Song Vase. Answers about sizes
+          without asking which item.","Hi there,
+
+The Rain Song Vase comes in the one size — 4×4×10 inches at $68. Since each piece is hand-sculpted, there's beautiful natural variation in the glaze and texture that makes every vase unique.
+
+If you're looking for a taller statement piece, the Copperleaf Vase from our Fall collection stands at 3×3×12 inches and has a similarly meditative quality with its reactive copper-oxide glaze. Alternatively, the Spring collection has other pieces at different scales — the Brook Whisper Bowl and Robin's Call Mug offer complementary heights and proportions that work beautifully grouped together on a shelf or table.
+
+If you're drawn to the rippled texture and serene feeling of the Rain Song but need a different dimension for your space, I'd love to help you find what works best for you.
+
+Warmly,
+Olivia"
+15,"First message: ""I'm looking for something for a boho room""
+Agent recommends Spring collection pieces.
+Reply:         ""What about something for under $50?""
+Expected: Agent remembers boho context, recommends within $50 budget.
+          Robin's Call Mug ($42) is the match.",Could you share the item name so I can pull the right details for you?
+16,"First message: ""I'd like to place a custom order""
+Agent asks for details.
+Reply:         ""2 bowls in terracotta, needed by end of August""
+","Hey! Thanks so much for reaching out—two terracotta bowls by end of August is totally doable for us, so we're good on timing.
+
+I want to make sure I nail exactly what you're looking for. Could you tell me a bit more about how you'll be using these? Are they for serving, everyday eating, or something else entirely? And do you have any preferences when it comes to size, shape, or texture? If you have any inspiration images or Pinterest boards you love, I'd be happy to take a look—that really helps me visualize what you're envisioning.
+
+Also, what's your budget looking like? That way we can make sure we're aligned from the start and I can create something you'll absolutely love.
+
+Can't wait to get started on these for you!"
+17,"""I am really unhappy with my order, it arrived completely broken""","Oh no, I'm so sorry to hear your piece arrived broken! That's really disappointing, and I want to make this right. Please take a photo of the damage and the packaging it came in, and send those over to me along with your order number. Once I see what happened, I'll review everything and get back to you with next steps, whether that's a replacement or refund. I'm here to help!"
+18,"""asdfghjkl ceramics question""","Form submission flagged for human review
+
+Thread ref: 5082e25e-f96c-4696-9ed6-41d0729fe3d5
+Name: Harini Rao Annamaneni
+Email: hrao2489@gmail.com
+Message:
+""asdfghjkl ceramics question"""
+19,"Test 6b — Image attachment
+Reply to agent email with an image attached.
+Expected: Flagged for human review. Olivia notified with attachment filename.
+          Agent does not reply.",Flagged for Human review 
+20,How much is the Citrus Zest Plate and can I put it in the dishwasher?,"Hi there,
+
+The Citrus Zest Plate is $52.00, and yes, it's dishwasher safe! It's made from porcelain, which is fired at the highest temperatures and can handle the dishwasher without any issues. That said, if you want to keep the glossy lemon-yellow glaze looking its absolute best over time, hand washing with warm soapy water is ideal. Just be gentle around the rims since porcelain can chip more easily than stoneware.
+
+This plate is part of our Summer collection — it was inspired by picking fruit in my grandmother's garden, and those hand-etched citrus slice motifs are meant to bring that same cheerful, summery feeling to your table. It's perfect for everyday use and looks beautiful displayed too.
+
+Warmly,
+Olivia Babu"

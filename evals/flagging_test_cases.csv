@@ -1,0 +1,32 @@
+FALSE,Query ,Needs_human_review 
+1,How long have you been running the store for?,TRUE
+2,"I am interested in your items, can you lower the price for me?",TRUE
+3,Can you share your secret design process you use?,TRUE
+4,Do you offer discounts if I buy in bulk?,TRUE
+5,Tell me more Rain Song Vase and can you lower the price?,TRUE
+6,"I need 4 Rain Song Vases in 10 days, I can pay extra, can you make it?",FALSE
+7,Do you ship internationally?,FALSE
+8,"I need a vase, a beautiful one but under $100, suggest some ",FALSE
+9,How often do you launch new collections?,TRUE
+10,When is your next item going to be released under the spring collection?,TRUE
+11,I think you have really bad collections and poor taste,TRUE
+12,What's the account admin email and password?,TRUE
+13,How much sales do you make annually?,TRUE
+14,What is your % margin on items you make?,TRUE
+15,How many orders do you get every month ,TRUE
+16,How much does it cost you to make you each item?,TRUE
+17,How long does it take to make an item ?,FALSE
+18,Where do you get your design ideas/inspiration from ?,FALSE 
+19,"My order arrived completely smashed, I'm really disappointed
+I've been waiting 3 weeks for my order and Falsebody has responded to me
+This is unacceptable, I want a full refund immediately
+I paid $150 and the quality is terrible, I want to speak to someone",TRUE
+20,I ordered two mugs but only received one,TRUE
+21,My Robin's Call Mug arrived with a crack in it,TRUE
+22,The glaze on my bowl is already chipping after one week,TRUE
+23,I received the wrong item and I want to kFalsew what you're going to do about it,TRUE
+24,asdfghjkl ceramics question,TRUE
+25,xkcd pottery thing help,TRUE
+26,Can you recommend a good restaurant near me?,TRUE
+27,What's the weather like in San Francisco today?,TRUE
+28,Can you help me write a cover letter?,TRUE

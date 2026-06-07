@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Babu Ceramics</title>
+  <style>
+    /* Babu Ceramics logo palette: deep maroon + sand beige */
+    :root {
+      --maroon: #801818;
+      --maroon-hover: #6a1414;
+      --maroon-muted: rgba(128, 24, 24, 0.35);
+      --beige: #c2b297;
+      --beige-light: #dcd0bc;
+      --beige-dark: #a89880;
+      --paper: #faf8f4;
+      --dot-window-1: #c2b297;
+      --dot-window-2: #e8dfd0;
+      --dot-window-3: #a05050;
+      --label: #801818;
+      --text: #801818;
+      --border-input: #801818;
+      --card-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--maroon);
+      color: var(--text);
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 36px 24px 56px;
+      position: relative;
+    }
+
+    .window-dots {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .window-dots span {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .window-dots span:nth-child(1) { background: var(--dot-window-1); }
+    .window-dots span:nth-child(2) { background: var(--dot-window-2); }
+    .window-dots span:nth-child(3) { background: var(--dot-window-3); }
+
+    .card {
+      position: relative;
+      z-index: 1;
+      background-color: var(--beige);
+      border-radius: 12px;
+      box-shadow: var(--card-shadow);
+      padding: 40px 44px 48px;
+      overflow: hidden;
+    }
+
+    /* Subtle speckled / stone texture (maroon flecks on beige) */
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      opacity: 0.45;
+      background-image: radial-gradient(
+          circle at 12% 18%,
+          rgba(128, 24, 24, 0.14) 0%,
+          transparent 42%
+        ),
+        radial-gradient(circle at 88% 42%, rgba(128, 24, 24, 0.1) 0%, transparent 38%),
+        radial-gradient(circle at 40% 78%, rgba(128, 24, 24, 0.08) 0%, transparent 45%),
+        radial-gradient(
+          rgba(128, 24, 24, 0.09) 1px,
+          transparent 1px
+        );
+      background-size: auto, auto, auto, 10px 10px;
+    }
+
+    .card > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      display: block;
+      width: min(140px, 42vw);
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .card-header {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--maroon);
+      margin: 0 0 18px;
+      text-align: center;
+    }
+
+    .card-rule {
+      border: none;
+      height: 1px;
+      background: var(--maroon-muted);
+      margin: 0 0 22px;
+    }
+
+    .field {
+      margin-bottom: 22px;
+    }
+
+    .field:last-of-type {
+      margin-bottom: 26px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--label);
+      margin-bottom: 8px;
+    }
+
+    .field input[type="text"],
+    .field input[type="email"] {
+      width: 100%;
+      border: 1px solid var(--border-input);
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 1rem;
+      color: var(--text);
+      background: var(--paper);
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .field input[type="text"]:focus,
+    .field input[type="email"]:focus {
+      border-color: var(--maroon);
+      box-shadow: 0 0 0 3px rgba(128, 24, 24, 0.12);
+    }
+
+    .field textarea {
+      width: 100%;
+      min-height: 160px;
+      padding: 14px 16px;
+      font-size: 1rem;
+      line-height: 1.45;
+      color: var(--text);
+      border: 1px solid var(--border-input);
+      border-radius: 10px;
+      background: var(--paper);
+      resize: vertical;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .field textarea:focus {
+      border-color: var(--maroon);
+      box-shadow: 0 0 0 3px rgba(128, 24, 24, 0.12);
+    }
+
+    .field input::placeholder,
+    .field textarea::placeholder {
+      color: rgba(128, 24, 24, 0.42);
+    }
+
+    .submit-row {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    button[type="submit"] {
+      appearance: none;
+      border: 2px solid var(--maroon);
+      background: var(--maroon);
+      color: var(--beige);
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      padding: 12px 28px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease,
+        transform 0.1s ease;
+    }
+
+    button[type="submit"]:hover {
+      background: var(--maroon-hover);
+      border-color: var(--maroon-hover);
+    }
+
+    button[type="submit"]:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="window-dots" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+
+    <section class="card">
+      <div class="logo-wrap">
+        <img
+          class="logo"
+          src="/static/babu-logo.png"
+          alt="Babu Ceramics"
+          width="140"
+          height="140"
+        >
+      </div>
+      <h1 class="card-header">Ask Olivia</h1>
+      <hr class="card-rule">
+
+      <form method="post" action="/ask">
+        <div class="field">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+            pattern="[^\s@]+@[^\s@]+\.[^\s@]+"
+            title="Please enter a valid email address (e.g. you@example.com)"
+          >
+        </div>
+
+        <div class="field">
+          <label for="query">What do you want to know?</label>
+          <textarea
+            id="query"
+            name="query"
+            placeholder="If you're curious about a piece, pricing, or a custom order, I'd love to hear from you, drop your question here and I'll reply by email as soon as I can. Thanks for reaching out!"
+            required
+          ></textarea>
+        </div>
+
+        <div class="submit-row">
+          <button type="submit">Send message</button>
+        </div>
+        <script>
+          document.getElementById("ask-form").addEventListener("submit", (e) => {
+            const email = document.getElementById("email");
+            if (!email.checkValidity()) {
+              e.preventDefault();
+              email.reportValidity(); // shows browser tooltip
+            }
+          });
+        </script>
+      </form>
+
+
+    </section>
+  </div>
+</body>
+</html>
